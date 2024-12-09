@@ -1,13 +1,3 @@
-= R5.A.08 -- Dépôt pour les TPs
-:icons: font
-:MoSCoW: https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW[MoSCoW]
-
-Ce dépôt concerne les rendus de mailto:bastien.record@etu.univ-tlse2.fr[Bastien Record].
-
-== TP1
-
-[source,gherkin]
----
 Feature: Is it friday ?
     I want to know if it's Friday
 
@@ -31,8 +21,3 @@ Feature: Is it friday ?
             | Friday         | TGIF   |
             | Sunday         | Nope   |
             | anything else! | Nope   |
----
-
-image::tp-1.png[width=80%]
-
-== TP2...
