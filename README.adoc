@@ -66,3 +66,48 @@ class Order {
 ----
 
 image::tp-2.png[width=80%]
+
+== TP3
+
+[source,gherkin]
+----
+Feature: Validate README.md file
+
+  Scenario: The README.md file has the required sections and a valid license link
+    Given a README.md file exists
+    Then the first line should be a title starting with #
+    And it should contain sections
+      | ## About             |
+      | ## Features          |
+      | ## Technologies Used |
+      | ## Getting Started   |
+      | ## License           |
+----
+
+[source,python]
+----
+import os
+import re
+from behave import given, then
+
+@given('a {string} file exists')
+def step_readme_exists(context, string):
+    with open(string, "r", encoding="utf-8") as file:
+        context.lines = file.readlines()
+
+@then('the first line should be a title starting with #')
+def step_first_line_title(context):
+    assert len(context.lines) > 0, "This file is empty"
+    assert context.lines[0].startswith("#"), "First line does not start with #"
+
+@then('it should contain sections')
+def step_check_sections(context):
+    sections = [row[0] for row in context.table]
+    content = "".join(context.lines)
+    for section in sections:
+        assert section in content, f"Section not found: {section}"
+----
+
+L'objectif est de tester si le README.md respect ma template habituelle pour mes projets perso.
+
+image::tp-3.png[width=80%]
