@@ -7,7 +7,7 @@ Ce dépôt concerne les rendus de mailto:bastien.record@etu.univ-tlse2.fr[Bastie
 == TP1
 
 [source,gherkin]
----
+----
 Feature: Is it friday ?
     I want to know if it's Friday
     Scenario: Not Friday because it's Sunday
@@ -27,14 +27,14 @@ Feature: Is it friday ?
             | Friday         | TGIF   |
             | Sunday         | Nope   |
             | anything else! | Nope   |
----
+----
 
 image::tp-1.png[width=80%]
 
 == TP2
 
 [source,java]
----
+----
 package dojo;
 
 import java.util.ArrayList;
@@ -63,6 +63,6 @@ class Order {
     }
 
 }
----
+----
 
 image::tp-2.png[width=80%]
