@@ -31,4 +31,38 @@ Feature: Is it friday ?
 
 image::tp-1.png[width=80%]
 
-== TP2...
+== TP2
+
+[source,java]
+---
+package dojo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class Order {
+
+    private String owner;
+    private String target;
+    private List<String> cocktails;
+
+    public Order() {
+        this.cocktails = new ArrayList<>();
+    }
+
+    void declareOwner(String romeo) {
+        this.owner = romeo;
+    }
+
+    void declareTarget(String juliette) {
+        this.target = juliette;
+    }
+
+    List<String> getCocktails() {
+        return this.cocktails;
+    }
+
+}
+---
+
+image::tp-2.png[width=80%]
