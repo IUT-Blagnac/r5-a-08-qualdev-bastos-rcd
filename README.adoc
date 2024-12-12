@@ -118,5 +118,5 @@ Rapport du TP2 avec cukedoctor : https://github.com/IUT-Blagnac/r5-a-08-qualdev-
 
 Rapport du TP3 avec cukedoctor :
 ----
-include::tp3-test-readme/documentation.adoc[]
+https://github.com/IUT-Blagnac/r5-a-08-qualdev-bastos-rcd/blob/main/tp3-test-readme/documentation.adoc
 ----
