@@ -114,9 +114,8 @@ image::tp-3.png[width=80%]
 
 == TP3
 
-Rapport du TP2 avec cukedoctor : https://github.com/IUT-Blagnac/r5-a-08-qualdev-bastos-rcd/blob/main/doc-tp2/documentation.html
+Rapport du TP2 avec cukedoctor :
+https://github.com/IUT-Blagnac/r5-a-08-qualdev-bastos-rcd/blob/main/doc-tp2/documentation.html
 
 Rapport du TP3 avec cukedoctor :
-----
 https://github.com/IUT-Blagnac/r5-a-08-qualdev-bastos-rcd/blob/main/tp3-test-readme/documentation.adoc
-----
