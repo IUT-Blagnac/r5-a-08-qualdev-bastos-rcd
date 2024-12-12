@@ -1,0 +1,16 @@
+Scenario Outline: friday or not      # hellocucumber/is_it_friday_yet.feature:23
+  Given today is "anything else!"    # hellocucumber.StepDefinitions.today_is(java.lang.String)
+  When I ask whether it's Friday yet # hellocucumber.StepDefinitions.i_ask_if_it_s_friday()
+  Then I should be told "Nope"       # hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s -- in hellocucumber.RunCucumberTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.581 s
+[INFO] Finished at: 2024-12-12T08:18:45+01:00
+[INFO] ------------------------------------------------------------------------

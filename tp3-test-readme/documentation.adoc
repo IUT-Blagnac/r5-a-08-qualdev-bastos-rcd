@@ -1,0 +1,67 @@
+:toc: right
+:backend: report.json
+:doctitle: Living Documentation
+:doctype: book
+:icons: font
+:sectanchors:
+:sectlink:
+:docinfo:
+:source-highlighter: highlightjs
+:toclevels: 3
+:hardbreaks:
+:chapter-label: Chapter
+:version-label: Version
+
+= *Living Documentation*
+
+== *Summary*
+[cols="12*^m", options="header,footer"]
+|===
+3+|Scenarios 7+|Steps 2+|Features: 1
+
+|[green]#*Passed*#
+|[red]#*Failed*#
+|Total
+|[green]#*Passed*#
+|[red]#*Failed*#
+|[purple]#*Skipped*#
+|[maroon]#*Pending*#
+|[yellow]#*Undefined*#
+|[blue]#*Missing*#
+|Total
+|Duration
+|Status
+
+12+^|*<<Validate-README.md-file>>*
+|1
+|0
+|1
+|3
+|0
+|0
+|0
+|0
+|0
+|3
+|000ms
+|[green]#*passed*#
+12+^|*Totals*
+|1|0|1|3|0|0|0|0|0|3 2+|000ms
+|===
+
+== *Features*
+
+[[Validate-README.md-file, Validate README.md file]]
+=== *Validate README.md file*
+
+==== Scenario: The README.md file has the required sections and a valid license link
+
+==========
+Given::
+a README.md file exists icon:thumbs-up[role="green",title="Passed"] [small right]#(000ms)#
+Then::
+the first line should be a title starting with # icon:thumbs-up[role="green",title="Passed"] [small right]#(000ms)#
+And::
+it should contain sections icon:thumbs-up[role="green",title="Passed"] [small right]#(000ms)#
+==========
+

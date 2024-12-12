@@ -111,3 +111,13 @@ def step_check_sections(context):
 L'objectif est de tester si le README.md respect ma template habituelle pour mes projets perso.
 
 image::tp-3.png[width=80%]
+
+== TP3
+
+Rapport du TP2 avec cukedoctor : https://github.com/IUT-Blagnac/r5-a-08-qualdev-bastos-rcd/blob/main/cucumber_demo/target/cukedoctor/documentation.html
+
+Rapport du TP3 avec cukedoctor :
+[source]
+----
+include::tp3-test-readme/documentation.adoc[]
+----

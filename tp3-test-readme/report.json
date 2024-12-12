@@ -1,0 +1,87 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/readmeReview.feature:3",
+      "name": "The README.md file has the required sections and a valid license link",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/readmeReview.feature:4",
+          "match": {
+            "arguments": [
+              {
+                "name": "string",
+                "value": "README.md"
+              }
+            ],
+            "location": "features/steps/test_readme.py:5"
+          },
+          "name": "a README.md file exists",
+          "result": {
+            "duration": 0.0005810260772705078,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/readmeReview.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/test_readme.py:10"
+          },
+          "name": "the first line should be a title starting with #",
+          "result": {
+            "duration": 2.9087066650390625e-05,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/readmeReview.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/test_readme.py:15"
+          },
+          "name": "it should contain sections",
+          "result": {
+            "duration": 3.5762786865234375e-05,
+            "status": "passed"
+          },
+          "step_type": "then",
+          "table": {
+            "headings": [
+              "## About"
+            ],
+            "rows": [
+              [
+                "## Features"
+              ],
+              [
+                "## Technologies Used"
+              ],
+              [
+                "## Getting Started"
+              ],
+              [
+                "## License"
+              ]
+            ]
+          }
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/readmeReview.feature:1",
+  "name": "Validate README.md file",
+  "status": "passed",
+  "tags": []
+}
+]
